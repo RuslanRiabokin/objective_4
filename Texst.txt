@@ -1,0 +1,10 @@
+asciinema rec
+# exit or hitting Ctrl-D.
+
+minikube start --nodes 3
+
+kubectl get nodes
+
+kubectl scale deployment kubia --replicas=3
+
+kubectl get deployment
